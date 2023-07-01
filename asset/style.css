@@ -249,12 +249,7 @@ footer p{
         display: block;
     }
     .container{
-        width: 100%;
       text-align: center;
-    }
-    .wallpaper{
-      height: 1300px;
-      width: 100%;
     }
     nav.active {
         display: block;
