@@ -159,7 +159,7 @@ footer p{
 
 
 /* responsif */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     #menu-icon {
       display: block;
       cursor: pointer;
@@ -209,12 +209,12 @@ footer p{
       .textser{
         width: 100%;
       }
-  }
+  } */
 
 
 
 
-  @media (max-width: 600px) {
+  @media screen and (max-width: 600px) {
     #menu-icon {
       display: block;
       cursor: pointer;
@@ -226,7 +226,7 @@ footer p{
       box-sizing: border-box;
       top: 100%;
       left: 0;
-      width: 670px;
+      width: 100%;
       background-color: #ffd500;
       border-radius: 0px 0px 10px 10px;
     }
