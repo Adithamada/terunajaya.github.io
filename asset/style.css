@@ -214,7 +214,7 @@ footer p{
 
 
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 480px) {
     #menu-icon {
       display: block;
       cursor: pointer;
@@ -226,7 +226,7 @@ footer p{
       box-sizing: border-box;
       top: 100%;
       left: 0;
-      width: 600px;
+      width: 100%;
       background-color: #ffd500;
       border-radius: 0px 0px 10px 10px;
     }
@@ -237,7 +237,7 @@ footer p{
       margin: 15px 0;
     }
     .map iframe{
-        width: 500px;
+        width: 300px;
     }
     .content1{
       display: block;
@@ -268,7 +268,7 @@ footer p{
       }
       .textser p{
         text-align: justify;
-        width: 450px;
+        width: 300px;
       }
       .text h1{
         font-size: 3.5rem;
