@@ -206,6 +206,9 @@ footer p{
       .imgser{
         margin-bottom: 70px;
       }
+      .textser{
+        width: 100%;
+      }
   }
 
 
@@ -243,7 +246,6 @@ footer p{
 
     .contentbox{
         text-align: center;
-        margin: auto;
         display: block;
     }
     .container{
@@ -271,7 +273,7 @@ footer p{
       }
       .textser{
         text-align: justify;
-        width: 450px;
+        width: 100%;
       }
       .text h1{
         font-size: 3.5rem;
