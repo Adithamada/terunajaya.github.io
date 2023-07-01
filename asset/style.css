@@ -226,7 +226,7 @@ footer p{
       box-sizing: border-box;
       top: 100%;
       left: 0;
-      width: 100%;
+      width: 600px;
       background-color: #ffd500;
       border-radius: 0px 0px 10px 10px;
     }
@@ -266,7 +266,7 @@ footer p{
       .imgbox img{
         width: 300px;
       }
-      .textser{
+      .textser p{
         text-align: justify;
         width: 450px;
       }
