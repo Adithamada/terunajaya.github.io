@@ -237,7 +237,7 @@ footer p{
       margin: 15px 0;
     }
     .map iframe{
-        width: 400px;
+        width: 500px;
     }
     .content1{
       display: block;
@@ -268,7 +268,7 @@ footer p{
       }
       .textser{
         text-align: justify;
-        width: 300px;
+        width: 450px;
       }
       .text h1{
         font-size: 3.5rem;
