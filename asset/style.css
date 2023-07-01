@@ -211,7 +211,7 @@ footer p{
 
 
 
-  @media (max-width: 480px) {
+  @media (max-width: 600px) {
     #menu-icon {
       display: block;
       cursor: pointer;
@@ -270,7 +270,8 @@ footer p{
         width: 300px;
       }
       .textser{
-        width: 350px;
+        text-align: justify;
+        width: 450px;
       }
       .text h1{
         font-size: 3.5rem;
