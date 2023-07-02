@@ -205,6 +205,8 @@ footer p{
     .container{
       text-align: center;
     }
-
+    .container img{
+        max-width: 300px;
+    }
   }
  
