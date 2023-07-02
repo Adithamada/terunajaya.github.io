@@ -52,6 +52,7 @@ nav a:hover{
 .container{
     position: relative;
     margin: 200px 0;
+    width: 100%;
 }
 .content1{
     position: relative;
@@ -83,6 +84,7 @@ nav a:hover{
 .content2{
     margin: 150px 0;
     position: relative;
+    width: 100%;
 }
 .content2 h1{
     text-align: center;
@@ -102,16 +104,18 @@ nav a:hover{
 }
 .textser{
     text-align: justify;
-    width: 600px;
+    width: 100%;
 }
 .textser p{
     font-weight: 500;
+    margin: 20px;
 }
 .content3{
     position: relative;
     margin: 150px 0 100px;
     display: block;
     text-align: center;
+    width: 100%;
 }
 .content3 h1{
 
@@ -140,7 +144,7 @@ nav a:hover{
 }
 .map iframe{
     position: relative;
-    width: 1200px;
+    width: 100%;
     height: 500px;
 }
 .map p{
@@ -152,6 +156,7 @@ footer{
     bottom: 0;
     background-color: #333;
     text-align: center;
+    width: 100%;
 }
 footer p{
     color: #fff;
@@ -162,5 +167,44 @@ footer p{
 
 
 
+@media screen and (max-width: 768px) {
+    #menu-icon {
+      display: block;
+      cursor: pointer;
+    }
+  
+    nav{
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      display: none;
+      box-sizing: border-box;
+      background-color: #ffd500;
+    }
+  
+    nav.active {
+      display: block;
+    }
+  
+    nav a {
+      display: block;
+      font-size: 2rem;
+      margin: 3rem 0;
+    }
+    .content1{
+      display: block;
+    }
+    .content2{
+        display: block;
+    }
+    .contentbox{
+        display: block;
+        width: 100%;
+    }
+    .container{
+      text-align: center;
+    }
 
+  }
  
