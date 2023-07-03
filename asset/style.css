@@ -198,4 +198,19 @@ footer p{
         display: block;
     }
   }
- 
+
+@media screen and (max-width:375px) {
+    .container img{
+        width: 100%;
+    }
+    .content1 {
+        text-align: center;
+        margin: auto;
+    }
+    .content2{
+        display: none;
+    }
+    .content1 h1{
+        font-size: 40px;
+    }
+} 
