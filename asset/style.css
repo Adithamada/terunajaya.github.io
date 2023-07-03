@@ -144,7 +144,7 @@ nav a:hover{
 }
 .map iframe{
     position: relative;
-    width: 100%;
+    width: 1200px;
     height: 500px;
 }
 .map p{
@@ -167,46 +167,35 @@ footer p{
 
 
 
-@media screen and (max-width: 480px) {
-    #menu-icon {
-      display: block;
-      cursor: pointer;
-    }
-  
-    nav{
-      position: absolute;
-      top: 100%;
-      left: 0;
-      width: 100%;
-      display: none;
-      box-sizing: border-box;
-      background-color: #ffd500;
-    }
-  
-    nav.active {
-      display: block;
-    }
-  
-    nav a {
-      display: block;
-      font-size: 2rem;
-      margin: 3rem 0;
-    }
-    .content1{
-      display: block;
-    }
-    .content2{
-        display: block;
-    }
-    .contentbox{
-        display: block;
+@media screen and (max-width: 768px) {
+    header{
         width: 100%;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
+    nav{
+        display: none;
     }
     .container{
-      text-align: center;
+        display: block;
+    }
+    .map iframe{
+        width: 100%;
+    }
+    .content1{
+        display: block;
+        text-align: center;
+    }
+    .text {
+        margin-bottom: 70px;
     }
     .container img{
-        max-width: 300px;
+        width: 300px;
+    }
+    .contentbox{
+        text-align: center;
+        display: block;
     }
   }
  
